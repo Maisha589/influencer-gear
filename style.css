@@ -11,7 +11,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px;
+    margin: 80px;
 }
 /* -------------------------Common CSS------------------------- */
 
@@ -32,4 +32,38 @@ nav{
  margin: 10px;
  padding: 10px;
  font-weight: 500px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.explore{
+    background-color: #E02C6D ;
+    outline: 0;
+    border: none;
+    border-radius: 70px;
+    margin: 16px 0;
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+}
+button .fas{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.about{
+    margin-left:80px ;
+    margin-right: 80px;
+}
+.about h1{
+    font-size: 40px;
+}
+.about p{
+    margin: 10px;
+}
+.bg{
+    background-image: url(./images/Circle\ design.svg);
+    background-size: cover;
 }
