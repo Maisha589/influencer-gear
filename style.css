@@ -124,5 +124,14 @@ margin-top: 5px;
     grid-gap: 30px;
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
-    margin: 50px;
+    margin: 100px;
+}
+.see-more{
+    text-align: right;
+    margin-top: 0;
+    margin-right: 100px;
+    color: #E02C6D;
+}
+.see-more .fas{
+    color: #E02C6D;
 }
