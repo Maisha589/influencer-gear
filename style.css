@@ -11,7 +11,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 80px;
+    margin: 60px 80px;
 }
 /* -------------------------Common CSS------------------------- */
 
@@ -37,6 +37,8 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 60px;
+    margin-right: 16px;
 }
 .explore{
     background-color: #E02C6D ;
@@ -66,4 +68,17 @@ button .fas{
 .bg{
     background-image: url(./images/Circle\ design.svg);
     background-size: cover;
+}
+.about img{
+    width: 100%;
+}
+.logos{
+    border-top: 2px solid rgb(216, 200, 200);
+    border-bottom: 2px  solid rgb(216, 200, 200);
+}
+.logos img{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    
 }
