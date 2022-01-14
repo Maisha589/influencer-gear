@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Oswald&family=Poppins:wght@400;500;600&family=Roboto+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+/* -------------------------Common CSS------------------------- */
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.navigation li{
+    list-style: none;
+    margin: 10px;
+
+}
+.navigation li a, .fas{
+    text-decoration: none;
+ color: black;
+ margin: 10px;
+ padding: 10px;
+ font-weight: 500px;
+}
