@@ -13,6 +13,10 @@ nav{
     align-items: center;
     margin: 60px 80px;
 }
+footer{ 
+    color: white;
+    background-color: rgb(1, 1, 31);
+}
 /* -------------------------Common CSS------------------------- */
 
 .navigation{
@@ -134,4 +138,26 @@ margin-top: 5px;
 }
 .see-more .fas{
     color: #E02C6D;
+}
+/* -----------------footer------------------------------- */
+
+.icons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.icon{
+    background-color: rgba(255, 255, 255, 0.208);
+    border-radius: 80px;
+    margin: 5px;
+    padding: 5px;
+}
+.icon .fas{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.foot{
+    padding: 20px;
+    text-align: center;
 }
