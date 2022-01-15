@@ -84,7 +84,7 @@ button .fas{
     background-size: cover;
 }
 .about img{
-    width: 100%;
+    width: 400px;
 }
 .logos{
     border-top: 2px solid rgb(216, 200, 200);
@@ -262,15 +262,25 @@ margin-top: 5px;
     .hidden{
         display: none;
     }
+    nav h1{
+        font-size:15px;
+        margin-top: 0;
+    }
     .container{
         display: flex;
         flex-direction: column;
       margin-right: 0;
       margin-bottom: 2px;
     }
+    .container h1{
+        text-align: center;
+    }
     .about{
         margin-top: 5px;
         margin-bottom: 0;
+    }
+    .about img{
+        width: 300px;
     }
    
     .logos{
