@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Oswald&family=Poppins:wght@400;500;600&family=Roboto+Condensed&display=swap');
 *{
+    max-width: 1300px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -203,7 +204,7 @@ margin-top: 5px;
 /* -------------------------Responsive------------------- */
 
 /* Mobile---------------------- */
-@media (max-width: 411px) {
+@media (max-width:411px) {
     .hidden{
         display: none;
     }
@@ -227,6 +228,7 @@ margin-top: 5px;
     margin-bottom: 20px;
 }
     .cards{
+align-items: center;
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
@@ -239,4 +241,24 @@ margin-top: 5px;
         font-size: .75em;
         margin-bottom: 50px;
     }
-   
+}
+/* -----------------------Tablet---------------------------- */
+ @media (min-width:412px) and (max-width:768px){
+    nav{
+        margin: 30px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .logos{
+        display: inline-block;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .navigation{
+        align-items: center;
+    }
+}
