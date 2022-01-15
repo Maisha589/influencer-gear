@@ -37,6 +37,10 @@ footer{
  padding: 10px;
  font-weight: 500px;
 }
+nav .fas{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.658);
+}
 .container{
     display: flex;
     justify-content: center;
@@ -49,10 +53,15 @@ footer{
     outline: 0;
     border: none;
     border-radius: 70px;
+    box-shadow: 0 10px 10px lightgray;
     margin: 16px 0;
     padding: 15px 20px;
     color: white;
     cursor: pointer;
+}
+.explore:hover{
+    background-color: rgb(238, 99, 120);
+    transition: 1s ease;
 }
 button .fas{
     color: white;
@@ -118,7 +127,10 @@ font-weight: 500;
     margin: 0 auto;
     box-shadow: 10px 10px 10px 10px rgba(167, 159, 159, 0.342);
 }
-
+.card img:hover{
+    transform: scale(1.1);
+    transform: transition 2s ;
+}
 .card p{
 color: lightslategrey;
 margin-top: 5px;
@@ -138,6 +150,33 @@ margin-top: 5px;
 }
 .see-more .fas{
     color: #E02C6D;
+}
+/* --------------------Feedback Part --------------------- */
+.feedbacks{
+    display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  margin-right: 80px;
+    
+}
+.feedbacks img{
+    width: 100%;
+   padding: 0;
+   margin: 0;
+}
+.feedbacks p{
+    padding: 80px;
+}
+.feedbacks .fas{
+    font-size: 50px;
+    color: #E02C6D;
+    
+}
+.left-right .fas:hover{
+    color: lightpink;
+    transition: 2s ease;
 }
 /* -----------------footer------------------------------- */
 
