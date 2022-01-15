@@ -200,3 +200,43 @@ margin-top: 5px;
     padding: 20px;
     text-align: center;
 }
+/* -------------------------Responsive------------------- */
+
+/* Mobile---------------------- */
+@media (max-width: 411px) {
+    .hidden{
+        display: none;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+      margin-right: 0;
+      margin-bottom: 2px;
+    }
+    .about{
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+   
+    .logos{
+        display: inline-block;
+        font-size: .1em;
+    }
+.collection h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .feedbacks{
+        margin: 0;
+    }
+    .feedbacks p{
+        padding: 0;
+        margin-left: 3px;
+        font-size: .75em;
+        margin-bottom: 50px;
+    }
+   
